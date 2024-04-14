@@ -49,3 +49,5 @@ with open(file_name, 'a', newline='', encoding='utf-8') as file:
 
             #write the data to the csv file
             writer.writerow([dates_text, dishes_text, price_text])
+            
+            
